@@ -14,26 +14,6 @@
       "file_size": "41192642"
     },
     {
-      "id": 1014,
-      "name": "v849",
-      "type": 2,
-      "version": "1.0.0",
-      "version_code": 1,
-      "file_name": "v849.tzst",
-      "file_md5": "f07886cb8fdf8e12ffca385366d59e05",
-      "file_size": "3158401"
-    },
-    {
-      "id": 1016,
-      "name": "v863.1",
-      "type": 2,
-      "version": "1.0.0",
-      "version_code": 1,
-      "file_name": "v863.1.tzst",
-      "file_md5": "46f379a3be747348e27dd7db24a62399",
-      "file_size": "36782"
-    },
-    {
       "id": 1019,
       "name": "Turnip_v26.1.0_R4",
       "type": 2,

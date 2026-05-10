@@ -40,6 +40,26 @@
     }
   },
   {
+    "id": 9,
+    "version": "1.0.0",
+    "version_code": 1,
+    "name": "proton9.0-arm64x-3",
+    "logo": "http://127.0.0.1:8080/components/45e60d211d35955bd045aabfded4e64b.png",
+    "file_md5": "2ff6952b6eec0ef881e97bde57ddc8e6",
+    "file_size": "211725844",
+    "download_url": "http://127.0.0.1:8080/components/wine_proton_9.0_arm64x.tar.zst",
+    "file_name": "wine_proton_9.0_arm64x.tar.zst",
+    "framework": "arm64X",
+    "framework_type": "proton",
+    "display_name": "proton9.0-arm64x-3",
+    "is_steam": 1,
+    "sub_data": {
+      "sub_file_name": "2ff6952b6eec0ef881e97bde57ddc8e6.tzst",
+      "sub_download_url": "http://127.0.0.1:8080/components/ae9d3f0c04341ac4fbb933f1ce4b6409.tzst",
+      "sub_file_md5": "ae9d3f0c04341ac4fbb933f1ce4b6409"
+    }
+  },
+  {
     "id": 10,
     "version": "1.0.0",
     "version_code": 1,
