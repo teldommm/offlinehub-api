@@ -134,7 +134,9 @@ gamehub/
 ---
 
 ## Notes
-
+Thanks to:
+• https://github.com/gamehublite
+• https://github.com/The412Banner
 - The server binds to `127.0.0.1` only — not accessible from the network, local only
 - All data is stored on your device — no external requests are made
 - Termux must remain running in the background while using GameHub
