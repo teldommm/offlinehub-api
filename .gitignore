@@ -1,0 +1,5 @@
+node_modules/
+components/
+*.tar.gz
+*.zip
+.DS_Store

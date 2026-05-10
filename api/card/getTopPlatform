@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "msg": "",
+  "time": "",
+  "data": [
+    {
+      "id": 13,
+      "name": "​​PC Emulator​​",
+      "icon": "http://127.0.0.1:8080/card/wallpaper/windows.png",
+      "type": 7,
+      "back_img": "http://127.0.0.1:8080/card/wallpaper/wallpaperflare-com-wallpaper.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Steam",
+      "icon": "http://127.0.0.1:8080/card/wallpaper/6719a3f928cad164fcb3f62e1273dbab.webp",
+      "type": 5,
+      "back_img": "http://127.0.0.1:8080/card/wallpaper/xbox-2016-2017-games-jump-ahead-HD-1.jpg"
+    }
+  ]
+}
