@@ -2,6 +2,7 @@
 
 A local API server that allows GameHub 5.1.4 to run fully offline without an account.
 
+AN UPDATE IS IN ACTIVE DEVELOPMENT, AFTER WHICH TERMUX WILL NOT BE NEEDED, THE SERVER WILL BE LOCATED INSIDE THE APK, AND FRAMEGENRATION AND V2 DRIVER FROM GAMEHUB 6.0.4 WILL ALSO BE ADDED
 ## How It Works
 
 The original GameHub app contacts the developer's servers on every launch to fetch
