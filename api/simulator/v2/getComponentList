@@ -6,6 +6,21 @@
       {
         "blurb": "",
         "display_name": "",
+        "download_url": "http://127.0.0.1:8080/components/Fex_20260509.tzst",
+        "file_md5": "413f44586f2fccaf93a2792f6198495d",
+        "file_name": "Fex_20260509.tzst",
+        "file_size": "1675639",
+        "gpu_range": "",
+        "id": 436,
+        "logo": "http://127.0.0.1:8080/components/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "Fex_20260509",
+        "type": 1,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "blurb": "",
+        "display_name": "",
         "download_url": "http://127.0.0.1:8080/components/Fex-20260103.tzst",
         "file_md5": "ca83779fa610be7ba0f19e6b305a0e8b",
         "file_name": "Fex-20260103.tzst",
@@ -44,6 +59,21 @@
         "id": 358,
         "logo": "http://127.0.0.1:8080/components/45e60d211d35955bd045aabfded4e64b.png",
         "name": "Fex-20251120",
+        "type": 1,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "blurb": "",
+        "display_name": "",
+        "download_url": "http://127.0.0.1:8080/components/Box64-0.4.1-2.tzst",
+        "file_md5": "cd7fe18882bcc8d5e37a7893288f8703",
+        "file_name": "Box64-0.4.1-2.tzst",
+        "file_size": "4210617",
+        "gpu_range": "",
+        "id": 419,
+        "logo": "http://127.0.0.1:8080/components/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "Box64-0.4.1-2",
         "type": 1,
         "version": "1.0.0",
         "version_code": 1
@@ -154,7 +184,7 @@
         "version_code": 2
       }
     ],
-    "total": 11,
+    "total": 12,
     "page": 1,
     "pageSize": 10
   },

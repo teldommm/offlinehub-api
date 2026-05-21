@@ -5,8 +5,22 @@
     "type": 3,
     "type_name": "dxvk",
     "display_name": "DXVK Layers",
-    "total": 29,
+    "total": 28,
     "components": [
+      {
+        "display_name": "",
+        "download_url": "http://127.0.0.1:8080/components/dxvk-1.12.0-sarek-dyasync.tzst",
+        "file_md5": "a84304e53659142aa820558a51ec7640",
+        "file_name": "dxvk-1.12.0-sarek-dyasync.tzst",
+        "file_size": "6255786",
+        "id": 430,
+        "is_ui": 1,
+        "logo": "http://127.0.0.1:8080/components/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "dxvk-1.12.0-sarek-dyasync",
+        "type": 3,
+        "version": "1.0.0",
+        "version_code": 1
+      },
       {
         "display_name": "",
         "download_url": "http://127.0.0.1:8080/components/dxvk-v2.7.1-1-async.tzst",
