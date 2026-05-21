@@ -26,7 +26,22 @@ GameHub APK (patched)
 
 ---
 
-## Requirements
+## Installation Methods
+
+There are two ways to run GameHub offline:
+
+| | Method 1 — Termux | Method 2 — Embedded Server |
+|---|---|---|
+| Requires Termux | ✅ Yes | ❌ No |
+| Requires Node.js | ✅ Yes | ❌ No |
+| Server location | Termux process | Inside the APK |
+| File placement | `~/gamehub/` | `Android/data/<package>/files/server/` |
+
+---
+
+## Method 1 — Termux (Node.js server)
+
+### Requirements
 
 - Android device with a Qualcomm Snapdragon SoC (Adreno GPU)
 - [Termux](https://github.com/termux/termux-app/releases) — terminal emulator for Android
@@ -134,12 +149,79 @@ gamehub/
 
 ---
 
+## Method 2 — Embedded Server APK (no Termux required)
+
+This method uses a specially patched APK with the HTTP server built directly
+inside the app. No Termux, no Node.js, no background process needed —
+the server starts automatically when the app launches.
+
+### Requirements
+
+- Android device with a Qualcomm Snapdragon SoC (Adreno GPU)
+- Any file manager app (to copy files)
+
+### 1. Install the embedded server APK
+
+Download `GameHub-Offline-Server.apk` from the
+[Releases](https://github.com/teldommm/offlinehub-build/releases) page
+and install it on your device.
+
+### 2. Find the server folder
+
+After installing and launching the app once, the following folder will be
+created automatically:
+
+```
+/sdcard/Android/data/<package-name>/files/server/
+```
+
+Open it with any file manager (e.g. MiXplorer, Files by Google).
+
+### 3. Copy API files
+
+Download `api.tar.gz` from the
+[Releases](https://github.com/teldommm/offlinehub-build/releases) page
+and extract it into the server folder:
+
+```
+/sdcard/Android/data/<package-name>/files/server/
+├── api/
+│   ├── base/
+│   ├── components/
+│   ├── simulator/
+│   ├── jwt/
+│   └── ...
+```
+
+### 4. Copy components
+
+Download `components.tar.gz` from the
+[Releases](https://github.com/teldommm/offlinehub-build/releases) page
+and extract it into the server folder:
+
+```
+/sdcard/Android/data/<package-name>/files/server/
+└── components/
+    ├── steam_9866233.tar.zst
+    ├── dxvk-v2.6-1-async.tzst
+    ├── Fex-20260103.tzst
+    └── ...
+```
+
+### 5. Launch the app
+
+Open the app — the embedded server starts on `127.0.0.1:8080` automatically
+in the background. No Termux required.
+
 ## Notes
+
 Thanks to:
-• https://github.com/gamehublite
-• https://github.com/The412Banner
+- https://github.com/gamehublite
+- https://github.com/The412Banner
+
 - The server binds to `127.0.0.1` only — not accessible from the network, local only
 - All data is stored on your device — no external requests are made
-- Termux must remain running in the background while using GameHub
+- **Method 1:** Termux must remain running in the background while using GameHub
+- **Method 2:** No background process needed — server runs inside the APK
 - Tested on Snapdragon 8 Elite — other Snapdragon chips should work
   with appropriate driver selection
