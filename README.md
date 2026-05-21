@@ -163,7 +163,7 @@ the server starts automatically when the app launches.
 ### 1. Install the embedded server APK
 
 Download `GameHub-Offline-Server.apk` from the
-[Releases](https://github.com/teldommm/offlinehub-build/releases) page
+[Releases](https://github.com/teldommm/offlinehub-api/releases/tag/v1.0) page
 and install it on your device.
 
 ### 2. Find the server folder
@@ -180,7 +180,7 @@ Open it with any file manager (e.g. MiXplorer, Files by Google).
 ### 3. Copy API files
 
 Download `api.tar.gz` from the
-[Releases](https://github.com/teldommm/offlinehub-build/releases) page
+[Releases](https://github.com/teldommm/offlinehub-api/releases/tag/v1.0) page
 and extract it into the server folder:
 
 ```
@@ -196,7 +196,7 @@ and extract it into the server folder:
 ### 4. Copy components
 
 Download `components.tar.gz` from the
-[Releases](https://github.com/teldommm/offlinehub-build/releases) page
+[Releases](https://github.com/teldommm/offlinehub-api/releases/tag/v1.0) page
 and extract it into the server folder:
 
 ```
